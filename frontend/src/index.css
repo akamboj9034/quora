@@ -1,0 +1,304 @@
+.quorafont {
+  font-family: 'q_serif',Georgia,Times,"Times New Roman","Hiragino Kaku Gothic Pro","Meiryo",serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* home */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* login */
+.login {
+    height: 100vh;
+    background-image: url("https://cdn-images-1.medium.com/max/2600/1*U_qMLDs5RMkaSbHpwwlwzQ.png");
+    background-size: 100% 110vh;
+    text-align: center;
+}
+
+.loginblock {
+    margin-top: 80px;
+    padding: 30px;
+    display: inline-block;
+    background-color: white;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 2%;
+}
+
+.loginform {
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.loginform > input {
+    margin: 5px 0;
+    width: 300px;
+}
+
+.loginlogo {
+    width: 280px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: rgb(158, 158, 158);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-bottom: 50px;
+}
+
+.signup {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.signupform > input{
+    margin: 5px;
+    width: 300px;
+}
+
+.topictile {
+    display: inline-block;
+    padding: 5px;
+}
+
+.topictileimage {
+    width: 115px;
+    height: 115px;
+}
+
+.modalcloseicon {
+  cursor: pointer;
+}
+
+/* navbar */
+.navbarheader {
+    border-bottom: 1px solid rgb(216, 216, 216);
+    padding: 0 120px;
+    left: 0;
+    top: 0;
+    color: grey;
+    /* position: fixed; */
+}
+
+.navbar, .navbar-expand-lg, .navbar-light {
+  padding: 5px;
+}
+
+.bg-light {
+    background-color: white;
+}
+
+.navcontents{
+    padding: 10px;
+    vertical-align: middle;
+}
+
+.navlogo {
+    width: 100px;
+    height: 30px;
+}
+
+.dropdown-item, .dropdown-item {
+  color: black;
+  background-color: white;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  color: grey;
+  background-color: white;
+}
+
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: grey;
+}
+
+/* nav question modal */
+.questionmodal {
+  padding: 25px 50px;
+}
+
+/* nav message modal */
+.messagemodal{
+  /* padding: 5px; */
+}
+
+.msgthreads{
+  padding: 10px 10px;
+  border-bottom: 0.5px solid rgb(221, 221, 221);
+  cursor: pointer;
+}
+
+.checkboxes {
+  padding: 0 20px;
+}
+
+#conversationfooter {
+  display: inline;
+}
+
+/* home */
+.askquestion {
+    height: 38px;
+}
+
+#addQuestionButton
+{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.sidenav {
+  width: 130px;
+  /* position: fixed; */
+  z-index: 1;
+  
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color:rgb(0, 0, 0);
+  display: block;
+  border-radius:3px;
+}
+
+.sidenav a:hover {
+  color:white;
+  background-color: darkgray;
+}
+
+
+/* @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 50px;}
+  .sidenav a {font-size: 25px;}
+} */
+
+.top_100
+{
+  padding-top: 30px;
+}
+
+.answeredDate
+{
+  font-size: 15px;
+  color:grey;
+}
+
+.answerBox
+{
+  margin-top: 20px;
+}
+.questionBox
+{
+  background-color:rgb(244, 242, 242);
+  padding:20px;
+  border-radius:3px;
+  margin-bottom: 15px;
+}
+
+/* stats */
+.stats {
+    height: 100vh;
+    padding: 25px;
+}
+
+/* profileview */
+.profileview {
+    width: 100%;
+    padding: 25px;
+}
+
+/* answers and rest of the graph views */
+.answerviews {
+    padding: 25px;
+}
+
+.answerviewlist {
+    border: 0.5px solid rgb(199, 199, 199);
+    margin: 0;
+    padding: 5px;
+}
+
+.recharts-wrapper {
+  margin : 0 auto;
+}
+
+/* search page */
+.searchContainer{
+  margin-top: 30px;
+}
+
+.searchByTypeList > li{
+  list-style-type: none;
+}
+
+.searchtype{
+  margin: 0;
+}
+
+.searchtype {
+  text-decoration: none;
+  color: black;
+  padding: 6px 8px 6px 16px;
+  font-size: 15px;
+  display: block;
+  border-radius:3px;
+  cursor: pointer;
+}
+
+.searchtype:hover {
+  color:white;
+  background-color: darkgray;
+}
+
+.searchresults{
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+.topicLink {
+  text-decoration: none;
+  color: black;
+}
+
+.topicLink:hover {
+  text-decoration: none;
+}
+
+.followicon {
+  color: black;
+}
+
+.light{
+  padding: 2.5px 15px;
+  border: 0.5px solid rgb(48, 145, 184);
+  border-radius: 15px 15px 15px 15px;
+  color: rgb(48, 145, 184);
+}
+
+.dark {
+  padding: 2.5px 15px;
+  border: 0.5px solid rgb(48, 145, 184);
+  border-radius: 15px 15px 15px 15px;
+  border: 0.5px solid black;
+}
+
+/* answer page */
+.emptyquestion{
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(223, 223, 223);
+  color: rgb(54, 54, 54);
+}
+
+.emptyquestion a {
+  color: rgb(0, 0, 0);
+}
+
